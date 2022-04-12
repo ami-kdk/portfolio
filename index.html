@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ばんど</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styleseet.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="js/jquery-3.6.0.min.js"></script>
+        
+        <script>
+            $(function(){
+  $('a[href^="#"]').click(function(){
+    let speed = 500;
+    let href= $(this).attr("href");
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let position = target.offset().top;
+    $("html, body").animate({scrollTop:position}, speed, "swing");
+    return false;
+  });
+});
+          </script>
+        
+        
+   </head>
+    <body>
+        <header class="border">
+          <div class="header">
+            <div class="header-logo">
+                ばんど
+            </div>
+        
+            <div class="header-list">
+                <li><a href="https://twitter.com/cat_bears">
+                    <span class="fa fa-twitter"></span>
+                    Twitter</a>
+                </li>
+                <li><a href="https://www.instagram.com/catbears_gram/">
+                    <span class="fa fa-instagram"></span>
+                    Instagram</a>
+                </li>
+        </header>
+            </div>
+          </div>
+        <div class="main">
+          <div class="contents">
+              <div class="contents-item">
+                 <img src="img/catbearsartyoko.jpg" alt="" width="100%">
+                 <div class="btnwrapper">
+                        <li><a href="#1" class="btn profile">プロフィール</a></li>
+                        <li><a href="#2" class="btn liveinformation">ライブ情報</a></li>
+                        <li><a href="#3" class="btn mv">MV</a></li>
+                  </div>
+              </div>
+          </div>
+          <div class="contents-detail" >
+            <div class="prof" href="#1">
+                <h2>PROFILE</h2>
+              <ul>
+                  <li>沖縄県出身現役大学生３ピースバンド</li>
+                  <li>繊細な歌詞とキャッチーなメロディーで</li>
+                  <li>聴く人の日常にそっと寄り添う</li>
+                  <li>Gt/Vo.こうや</li>
+                  <li>Ba/Cho.あみ</li>
+                  <li>Dr/Cho.かく</li>
+              </ul>
+              <img src="img/cat_ok.jpg" alt="" width="41%">
+            </div>
+
+            <div class="liveinfo" href="#2">
+                <h2>LIVE INFORMATION</h2>
+                <div class="asylum">
+                  <ul>
+                    <li>4/10 『SAKURAZAKA ASYLUM 2022』</li>
+                    <li>＠桜坂セントラル</li>
+                    <li>ADV/¥3,500 DOOR/¥4,000</li>
+                  </ul>
+                </div>
+                
+                <div class="iine">
+                  <ul>
+                    <li>4/17 『いいね！祭り vol.20 ×MLE RYUKYU PROJECT』</li>
+                    <li>＠桜坂セントラル</li>
+                    <li>ADV・DOOR/¥3,000 学割/¥1,000 視聴チケット/¥2,500</li>
+                 </ul>
+                </div>
+                
+                <div class="bokura">
+                  <ul>
+                    <li>4/19 『僕らの出会う場所』</li>
+                    <li>＠那覇cyber-box</li>
+                    <li>ADV・DOOR/¥1,500 配信/¥1,000</li>
+                  </ul>
+                </div>
+                <div class="sensen">
+                  <ul>
+                    <li>4/23 『戦戦復帰』</li>
+                    <li>＠桜坂セントラル</li>
+                    <li>ADV・DOOR/¥2,000 学割/¥1,000</li>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="mvlink" href="#3">
+                <h2>YOUTUBE</h2>
+                <div class="douga">
+                  <a><iframe width="560" height="315" src="https://www.youtube.com/embed/eOJMMVQS0Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                  <a><iframe width="560" height="315" src="https://www.youtube.com/embed/e2bS89SnZ5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                </div>
+            </div>
+
+        </div>
+
+       
+       
+        
+
+        
+
+
+
+        <div class="footer">
+            <div class="footer-logo">cat bears</div>
+            <div class="footer-list">
+                <ul>
+                    <li>お問合せ</li>
+                    <li>catbearsofficial@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ばんど</title>
+        <link rel="stylesheet" href="css/styleseet.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">ばんど</div>
+            <div class="header-list">
+                <li>Twitter</li>
+                <li>Instagram</li>
+   
+            </div>
+        </div>
+        <div class="main"></div>
+        <div class="footer">
+            <div class="footer-logo">ばんど</div>
+            <div class="footer-list">メールアドレス</div>
+        </div>
+    </body>
+
+</html>
