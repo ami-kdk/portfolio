@@ -1,18 +1,55 @@
-/*header-------------------------------------------*/
-.header{
-    background-color: #ca8269;
-    color:#fff;
-    height:150px;
+.body{
     width:100%;
 }
-.header-logo{
-    float:left;
-    font-size: 50px;
-    padding:35px 40px;
+/*header-------------------------------------------*/
+
+.header::before, .header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    z-index: 1;
+  }
+  
+  .header::before {
+    width: 55%;
+    height: 109%;
+    background-color: #f8f4e6;
+    right: 0%;
+    top: 59%;
+  }
+  .header::after {
+    width: 55%;
+    height: 100%;
+    background-color:#b78884;
+    top: 29%;
+    
+  }
+
+
+.header{
+    background-color: #b78884;
+    color:#fff;
+    height:135px;
+    width:100%;
+    position: absolute;
+    width: 98.9%;
+    background: #b78884;
+
 }
+
+
 .header-list{
     padding-top:55px;
     color:#fff;
+    
+}
+
+.header-logo{
+    position: absolute;
+    top:20px;
+    left:150px;
+    z-index: 2;
 }
 /*main----------------------------------------*/
 
@@ -24,13 +61,13 @@
 li{
     list-style: none;
     float:left;
-    padding-right:50px;
+    padding-right:45px;
     
     
 }
 
 .contents-item img{
-   padding-top:20px;
+   margin-top:21%;
 }
 
 .btnwrapper{
@@ -38,30 +75,50 @@ li{
     margin:0 auto;
 }
 
+
+
 .btn{
-    text-align: center;
     color:white;
-    background-color: coral;
+    background-color: #b78884;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
     padding:5px 14px;
     font-size:30px;
+    text-decoration: none;
 
 }
 
+.profile{
+    position:absolute;
+    top:1000px;
+    left:250px;
+
+}
+
+.liveinformation{
+    position: absolute;
+    top:1000px;
+    right:630px;
+}
+
+.mv{
+    position: absolute;
+    top:1000px;
+    right:330px;;
+}
 
 .btn:hover{
     opacity:1;
 }
 
 .contents{
-    height:590px;
-    padding-bottom: 300px;
+    height:650px;
+    padding-bottom: 500px;
 }
 
 .contents-detail{
-    height:4000px;
+    height:4100px;
     font-size :40px;
 }
 
@@ -84,6 +141,7 @@ li{
     float:right;
     clear:right;
     font-family: "M PLUS Rounded 1c";
+    margin-top:0px;
 }
 
 .liveinfo{
@@ -184,20 +242,54 @@ li{
     text-align: center;
 }
 
+.top a{
+    color:white;
+    text-align: center;
+    padding:10px 20px;
+    background-color: #b78884;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-size:40px;
+    position:absolute;
+    top:4800px;
+    left:640px;
+    text-decoration: none;
+}
+
+.top:hover{
+    opacity:1;
+}
+
+
+
+
 /*footer-----------------------------------------------*/
 .footer-logo{
-    font-size:40px;
+    font-size:30px;
     float:left;
+    padding-left: 20px;
+    padding-top:15px;
 }
 .footer-list{
     float:right;
-    font-size: 30px;
+    font-size: 20px;
+    
+    
 }
 .footer{
-    background-color: darksalmon;
+    background-color: #b78884;
     color:#fff;
-    height:120px;
-    padding:40px 40px;
+    height:80px;
+    
 }
 
-
+.sns{
+    padding-top:25px;
+}
+.sns a{
+    color:white;
+    padding-left:50px;
+    
+    
+}

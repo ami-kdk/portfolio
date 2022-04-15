@@ -10,24 +10,26 @@
         
         <script>
             $(function(){
-  $('a[href^="#"]').click(function(){
-    let speed = 500;
-    let href= $(this).attr("href");
-    let target = $(href == "#" || href == "" ? 'html' : href);
-    let position = target.offset().top;
-    $("html, body").animate({scrollTop:position}, speed, "swing");
-    return false;
-  });
-});
+             $('a[href^="#"]').click(function(){
+                let speed = 500;
+                let href= $(this).attr("href");
+                let target = $(href == "#" || href == "" ? 'html' : href);
+                let position = target.offset().top;
+                $("html, body").animate({scrollTop:position}, speed, "swing");
+                return false;
+                });
+             });
           </script>
         
         
    </head>
     <body>
         <header class="border">
-          <div class="header">
+
+          
+          <div id="4" class="header" href="#4">
             <div class="header-logo">
-                ばんど
+                <img src="img/cat-css.jpg" alt="" width="15%">
             </div>
         
             <div class="header-list">
@@ -47,27 +49,33 @@
               <div class="contents-item">
                  <img src="img/catbearsartyoko.jpg" alt="" width="100%">
                  <div class="btnwrapper">
+                     <ul>
                         <li><a href="#1" class="btn profile">プロフィール</a></li>
                         <li><a href="#2" class="btn liveinformation">ライブ情報</a></li>
                         <li><a href="#3" class="btn mv">MV</a></li>
+                     </ul>   
                   </div>
               </div>
           </div>
           <div class="contents-detail" >
-            <div class="prof" href="#1">
+              
+           <div id="1" class="prof" href="#1">
+              
                 <h2>PROFILE</h2>
               <ul>
-                  <li>沖縄県出身現役大学生３ピースバンド</li>
-                  <li>繊細な歌詞とキャッチーなメロディーで</li>
-                  <li>聴く人の日常にそっと寄り添う</li>
-                  <li>Gt/Vo.こうや</li>
-                  <li>Ba/Cho.あみ</li>
-                  <li>Dr/Cho.かく</li>
+                  <p>沖縄県出身現役大学生３ピースバンド<br>
+                  繊細な歌詞とキャッチーなメロディーで<br>
+                  聴く人の日常にそっと寄り添う<br>
+                  Gt/Vo.こうや<br>
+                  Ba/Cho.あみ<br>
+                  Dr/Cho.かく</p>
               </ul>
               <img src="img/cat_ok.jpg" alt="" width="41%">
             </div>
-
-            <div class="liveinfo" href="#2">
+            
+            
+              <div id="2" class="liveinfo" href="#2">
+            
                 <h2>LIVE INFORMATION</h2>
                 <div class="asylum">
                   <ul>
@@ -94,14 +102,16 @@
                 </div>
                 <div class="sensen">
                   <ul>
-                    <li>4/23 『戦戦復帰』</li>
+                    <li>4/23 『GANMA pre.戦戦復帰』</li>
                     <li>＠桜坂セントラル</li>
                     <li>ADV・DOOR/¥2,000 学割/¥1,000</li>
                   </ul>
                 </div>
             </div>
-
-            <div class="mvlink" href="#3">
+            
+            
+                 <div id="3" class="mvlink" href="#3">
+            
                 <h2>YOUTUBE</h2>
                 <div class="douga">
                   <a><iframe width="560" height="315" src="https://www.youtube.com/embed/eOJMMVQS0Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
@@ -109,25 +119,20 @@
                 </div>
             </div>
 
-        </div>
-
-       
-       
-        
-
-        
-
-
-
-        <div class="footer">
-            <div class="footer-logo">cat bears</div>
-            <div class="footer-list">
-                <ul>
-                    <li>お問合せ</li>
-                    <li>catbearsofficial@gmail.com</li>
-                </ul>
+            <div id="4" class="top">
+              <li><a href="#4">TOPへ</a></li>
             </div>
+
         </div>
-    </body>
+        <div class="footer">
+          <div class="footer-logo">cat bears</div>
+          <div class="footer-list">
+              <ul>
+                  <li>お問合せ</li>
+                  <li>catbearsofficial@gmail.com</li>
+              </ul>
+          </div>
+      </div>
+  </body>
 
 </html>
