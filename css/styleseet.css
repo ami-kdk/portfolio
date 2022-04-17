@@ -54,12 +54,10 @@
 .snshead a{
     color:#b78884;
     text-decoration: none;
-    
-    opacity:1;
     font-size:45px;
     z-index:10;
     position: relative;
-    top:30px;
+    top:20px;
     
 }
 
@@ -93,6 +91,7 @@ li{
 }
 
 .inner{
+    opacity: 0.6;
     position:absolute;
     border:solid 2px;
     width:95%;
@@ -339,4 +338,12 @@ li{
 
 .sns a:hover{
     color: #fde8d0;
+}
+
+/*----------------------------------------------------*/
+
+@media screen and (max-width:480px) {
+.main{
+  font-size: 20px;
+}
 }
