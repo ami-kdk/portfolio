@@ -42,7 +42,6 @@
 .header-list{
     padding-top:55px;
     color:#fff;
-    
 }
 
 .header-logo{
@@ -51,6 +50,29 @@
     left:150px;
     z-index: 2;
 }
+
+.snshead a{
+    color:#b78884;
+    text-decoration: none;
+    
+    opacity:1;
+    font-size:45px;
+    z-index:10;
+    position: relative;
+    top:30px;
+    
+}
+
+.snshead a:hover{
+    color: #b94047;
+}
+
+.ge{
+    margin-left:1100px;
+}
+
+
+
 /*main----------------------------------------*/
 
 .main{
@@ -66,9 +88,25 @@ li{
     
 }
 
+.contents-item{
+    position: relative;
+}
+
+.inner{
+    position:absolute;
+    border:solid 2px;
+    width:95%;
+    height:63%;
+    top:322px;
+    left:35px;
+    color:white
+}
+
 .contents-item img{
    margin-top:21%;
 }
+
+
 
 .btnwrapper{
     display:inline-block;
@@ -135,6 +173,10 @@ li{
     margin-left:34%;
     
    
+}
+
+.prof img{
+    border-radius: 40px;
 }
 
 .prof p{
@@ -257,7 +299,7 @@ li{
     text-decoration: none;
 }
 
-.top:hover{
+.top a:hover{
     opacity:1;
 }
 
@@ -285,11 +327,16 @@ li{
 }
 
 .sns{
-    padding-top:25px;
+    padding-top:17px;
 }
 .sns a{
     color:white;
     padding-left:50px;
-    
-    
+    text-decoration: none;
+    opacity:1;
+    font-size:30px;
+}
+
+.sns a:hover{
+    color: #fde8d0;
 }
